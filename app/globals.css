@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+  @apply bg-gray-100 m-0 p-0;
+}
+
+.phone-btn-class {
+  border-radius: 12px;
+}
+
+.phone-btn-class:hover {
+  background-color: #a94a9c;
+  color: white;
+  border-radius: 12px;
+}
+
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
